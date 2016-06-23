@@ -68,7 +68,16 @@ class ViewController: UIViewController {
             if status {
                 if (strPass == myTruePass) {
                     print("Welcome")
-                    myAlertDialog("Welcome", strMessage: "Hello \(strUser) ")
+                    
+                    let goToService = self.storyboard?.instantiateViewControllerWithIdentifier("serviceID") as! ServiceViewController
+                    
+                    self.navigationController?.pushViewController(goToService, animated: true)
+                    
+                    
+//                    myAlertDialog("Welcome", strMessage: "Hello \(strUser) ")
+                    
+                    
+                    
                     
                 }else{
                     

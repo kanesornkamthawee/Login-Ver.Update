@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		01FE1A4F1D1BC99A0058B449 /* bg200.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A4E1D1BC99A0058B449 /* bg200.png */; };
+		01FE1A511D1BD3240058B449 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FE1A501D1BD3240058B449 /* ServiceViewController.swift */; };
+		01FE1A5C1D1BD8560058B449 /* ishihara_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A521D1BD8560058B449 /* ishihara_01.png */; };
+		01FE1A5D1D1BD8560058B449 /* ishihara_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A531D1BD8560058B449 /* ishihara_02.png */; };
+		01FE1A5E1D1BD8560058B449 /* ishihara_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A541D1BD8560058B449 /* ishihara_03.png */; };
+		01FE1A5F1D1BD8560058B449 /* ishihara_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A551D1BD8560058B449 /* ishihara_04.png */; };
+		01FE1A601D1BD8560058B449 /* ishihara_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A561D1BD8560058B449 /* ishihara_05.png */; };
+		01FE1A611D1BD8560058B449 /* ishihara_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A571D1BD8560058B449 /* ishihara_06.png */; };
+		01FE1A621D1BD8560058B449 /* ishihara_07.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A581D1BD8560058B449 /* ishihara_07.png */; };
+		01FE1A631D1BD8560058B449 /* ishihara_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A591D1BD8560058B449 /* ishihara_08.png */; };
+		01FE1A641D1BD8560058B449 /* ishihara_09.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A5A1D1BD8560058B449 /* ishihara_09.png */; };
+		01FE1A651D1BD8560058B449 /* ishihara_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A5B1D1BD8560058B449 /* ishihara_10.png */; };
+		01FE1A671D1BD8EA0058B449 /* bg600.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FE1A661D1BD8EA0058B449 /* bg600.png */; };
 		08EA3DDC1D1BBD4F00E18F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3DDB1D1BBD4F00E18F73 /* AppDelegate.swift */; };
 		08EA3DDE1D1BBD4F00E18F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA3DDD1D1BBD4F00E18F73 /* ViewController.swift */; };
 		08EA3DE11D1BBD4F00E18F73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08EA3DDF1D1BBD4F00E18F73 /* Main.storyboard */; };
@@ -37,6 +49,18 @@
 
 /* Begin PBXFileReference section */
 		01FE1A4E1D1BC99A0058B449 /* bg200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg200.png; path = ../../../Desktop/Resource/Background/bg200.png; sourceTree = "<group>"; };
+		01FE1A501D1BD3240058B449 /* ServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		01FE1A521D1BD8560058B449 /* ishihara_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_01.png; path = ../../../Desktop/Resource/ishihara/ishihara_01.png; sourceTree = "<group>"; };
+		01FE1A531D1BD8560058B449 /* ishihara_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_02.png; path = ../../../Desktop/Resource/ishihara/ishihara_02.png; sourceTree = "<group>"; };
+		01FE1A541D1BD8560058B449 /* ishihara_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_03.png; path = ../../../Desktop/Resource/ishihara/ishihara_03.png; sourceTree = "<group>"; };
+		01FE1A551D1BD8560058B449 /* ishihara_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_04.png; path = ../../../Desktop/Resource/ishihara/ishihara_04.png; sourceTree = "<group>"; };
+		01FE1A561D1BD8560058B449 /* ishihara_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_05.png; path = ../../../Desktop/Resource/ishihara/ishihara_05.png; sourceTree = "<group>"; };
+		01FE1A571D1BD8560058B449 /* ishihara_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_06.png; path = ../../../Desktop/Resource/ishihara/ishihara_06.png; sourceTree = "<group>"; };
+		01FE1A581D1BD8560058B449 /* ishihara_07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_07.png; path = ../../../Desktop/Resource/ishihara/ishihara_07.png; sourceTree = "<group>"; };
+		01FE1A591D1BD8560058B449 /* ishihara_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_08.png; path = ../../../Desktop/Resource/ishihara/ishihara_08.png; sourceTree = "<group>"; };
+		01FE1A5A1D1BD8560058B449 /* ishihara_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_09.png; path = ../../../Desktop/Resource/ishihara/ishihara_09.png; sourceTree = "<group>"; };
+		01FE1A5B1D1BD8560058B449 /* ishihara_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ishihara_10.png; path = ../../../Desktop/Resource/ishihara/ishihara_10.png; sourceTree = "<group>"; };
+		01FE1A661D1BD8EA0058B449 /* bg600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg600.png; path = ../../../Desktop/Resource/Background/bg600.png; sourceTree = "<group>"; };
 		08EA3DD81D1BBD4F00E18F73 /* Easy 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08EA3DDB1D1BBD4F00E18F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08EA3DDD1D1BBD4F00E18F73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,12 +127,24 @@
 			children = (
 				08EA3DDB1D1BBD4F00E18F73 /* AppDelegate.swift */,
 				08EA3DDD1D1BBD4F00E18F73 /* ViewController.swift */,
+				01FE1A521D1BD8560058B449 /* ishihara_01.png */,
+				01FE1A531D1BD8560058B449 /* ishihara_02.png */,
+				01FE1A541D1BD8560058B449 /* ishihara_03.png */,
+				01FE1A661D1BD8EA0058B449 /* bg600.png */,
+				01FE1A551D1BD8560058B449 /* ishihara_04.png */,
+				01FE1A561D1BD8560058B449 /* ishihara_05.png */,
+				01FE1A571D1BD8560058B449 /* ishihara_06.png */,
+				01FE1A581D1BD8560058B449 /* ishihara_07.png */,
+				01FE1A591D1BD8560058B449 /* ishihara_08.png */,
+				01FE1A5A1D1BD8560058B449 /* ishihara_09.png */,
+				01FE1A5B1D1BD8560058B449 /* ishihara_10.png */,
 				01FE1A4E1D1BC99A0058B449 /* bg200.png */,
 				08EA3DDF1D1BBD4F00E18F73 /* Main.storyboard */,
 				08EA3E091D1BBEEE00E18F73 /* bg700.png */,
 				08EA3DE21D1BBD4F00E18F73 /* Assets.xcassets */,
 				08EA3DE41D1BBD4F00E18F73 /* LaunchScreen.storyboard */,
 				08EA3DE71D1BBD4F00E18F73 /* Info.plist */,
+				01FE1A501D1BD3240058B449 /* ServiceViewController.swift */,
 			);
 			path = "Easy 2";
 			sourceTree = "<group>";
@@ -235,11 +271,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FE1A651D1BD8560058B449 /* ishihara_10.png in Resources */,
 				08EA3E0A1D1BBEEE00E18F73 /* bg700.png in Resources */,
 				08EA3DE61D1BBD4F00E18F73 /* LaunchScreen.storyboard in Resources */,
+				01FE1A611D1BD8560058B449 /* ishihara_06.png in Resources */,
 				08EA3DE31D1BBD4F00E18F73 /* Assets.xcassets in Resources */,
+				01FE1A631D1BD8560058B449 /* ishihara_08.png in Resources */,
+				01FE1A5C1D1BD8560058B449 /* ishihara_01.png in Resources */,
 				01FE1A4F1D1BC99A0058B449 /* bg200.png in Resources */,
+				01FE1A5E1D1BD8560058B449 /* ishihara_03.png in Resources */,
+				01FE1A5F1D1BD8560058B449 /* ishihara_04.png in Resources */,
+				01FE1A601D1BD8560058B449 /* ishihara_05.png in Resources */,
+				01FE1A671D1BD8EA0058B449 /* bg600.png in Resources */,
+				01FE1A621D1BD8560058B449 /* ishihara_07.png in Resources */,
 				08EA3DE11D1BBD4F00E18F73 /* Main.storyboard in Resources */,
+				01FE1A5D1D1BD8560058B449 /* ishihara_02.png in Resources */,
+				01FE1A641D1BD8560058B449 /* ishihara_09.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +313,7 @@
 			files = (
 				08EA3DDE1D1BBD4F00E18F73 /* ViewController.swift in Sources */,
 				08EA3DDC1D1BBD4F00E18F73 /* AppDelegate.swift in Sources */,
+				01FE1A511D1BD3240058B449 /* ServiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

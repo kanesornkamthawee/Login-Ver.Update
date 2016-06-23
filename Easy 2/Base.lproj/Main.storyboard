@@ -22,23 +22,24 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FBf-o4-BMc">
-                                <rect key="frame" x="87" y="120" width="241" height="30"/>
+                                <rect key="frame" x="87" y="239" width="241" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UvB-dl-um4">
+                                <rect key="frame" x="87" y="318" width="241" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFf-77-Ad0">
-                                <rect key="frame" x="124" y="301" width="167" height="37"/>
+                                <rect key="frame" x="124" y="386" width="167" height="52"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.69029584390862941" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="loginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hDd-3l-R3R"/>
+                                    <segue destination="y0a-wn-Obp" kind="push" id="6uC-0A-W4q"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UvB-dl-um4">
-                                <rect key="frame" x="87" y="176" width="241" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -53,6 +54,52 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1117" y="429"/>
+        </scene>
+        <!--Service View Controller-->
+        <scene sceneID="rgk-Qd-Ilm">
+            <objects>
+                <viewController storyboardIdentifier="serviceID" id="y0a-wn-Obp" customClass="ServiceViewController" customModule="Easy_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xJQ-wN-Ejs"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eac-jG-d6h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HzE-rj-wva">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg600.png" translatesAutoresizingMaskIntoConstraints="NO" id="1oN-8P-rwA">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ishihara_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="VgU-z7-nvj">
+                                <rect key="frame" x="75" y="100" width="265" height="273"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b3M-jW-mby">
+                                <rect key="frame" x="86" y="435" width="242" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j82-5o-iZN">
+                                <rect key="frame" x="126" y="508" width="162" height="42"/>
+                                <color key="backgroundColor" white="1" alpha="0.84999999999999998" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Answer"/>
+                                <connections>
+                                    <action selector="answerButton:" destination="y0a-wn-Obp" eventType="touchUpInside" id="2qD-2N-lDE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="sfE-Ih-y77"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="answerButton" destination="j82-5o-iZN" id="CNx-cu-qB5"/>
+                        <outlet property="answerTextField" destination="b3M-jW-mby" id="p2E-TT-g7B"/>
+                        <outlet property="ishiharaImageView" destination="VgU-z7-nvj" id="8is-05-Mdk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zZW-ew-2YZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1711" y="429"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rVN-Y5-RtR">
@@ -76,5 +123,7 @@
     </scenes>
     <resources>
         <image name="bg200.png" width="744" height="1392"/>
+        <image name="bg600.png" width="744" height="1392"/>
+        <image name="ishihara_01.png" width="251" height="242"/>
     </resources>
 </document>
