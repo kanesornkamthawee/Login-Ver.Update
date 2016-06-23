@@ -17,6 +17,8 @@ class ServiceViewController: UIViewController {
     
     var myIndex = 0
     
+    var score = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +56,18 @@ class ServiceViewController: UIViewController {
         }
         
         ishiharaImageView.image = UIImage(named: myImage[myIndex])
+        
+        
+        let intAnswer = Int(strAnswer!)
+        print("intAnswer ==> \(intAnswer)")
+        
+        if (intAnswer == myTrueAnswer[myIndex]) {
+            
+            score += 1
+            print("Score ==> \(score)")
+            
+            
+        }
         
         
         
