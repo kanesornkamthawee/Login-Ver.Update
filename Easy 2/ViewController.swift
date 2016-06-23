@@ -58,7 +58,7 @@ class ViewController: UIViewController {
             for myFor in trueUser {
                 if (strUser == myFor) {
                     status = true
-                    myTruePass = truePass[index]
+                    myTruePass = truePassword[index]
                     
                 }//if
                 index += 1
@@ -66,8 +66,17 @@ class ViewController: UIViewController {
             }//for
             
             if status {
-                <#code#>
+                if (strPass == myTruePass) {
+                    print("Welcome")
+                    myAlertDialog("Welcome", strMessage: "Hello \(strUser) ")
+                    
+                }else{
+                    
+                    myAlertDialog("Password False", strMessage: "Please Try Again Password False")
+                    
+                }
             }else{
+                myAlertDialog("Not Have User This", strMessage: "Not Have \(strUser)  In Our Database")
             
             }
             
