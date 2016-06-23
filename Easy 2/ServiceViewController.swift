@@ -14,6 +14,10 @@ class ServiceViewController: UIViewController {
     @IBOutlet weak var ishiharaImageView: UIImageView!
 
     @IBOutlet weak var answerTextField: UITextField!
+    
+    var myIndex = 0
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,6 +35,27 @@ class ServiceViewController: UIViewController {
         let strAnswer = answerTextField.text
         
         print("strAnswer ==>\(strAnswer)")
+        
+        var myImage = ["ishara_01.png","ishara_02.png","ishara_03.png","ishara_04.png","ishara_05.png",
+                       "ishara_06.png","ishara_07.png","ishara_08.png","ishara_09.png","ishara_10.png",]
+        
+        
+        var myTrueAnswer = [3,5,6,12,29,45,74,42,0,0]
+        
+        if (myIndex < 9 ) {
+            
+            myIndex += 1
+            
+        
+        } else {
+        
+            myIndex = 0
+        
+        }
+        
+        ishiharaImageView.image = UIImage(named: myImage[myIndex])
+        
+        
         
         
         
